@@ -16,6 +16,7 @@ In *Dimensionality Reduction by Learning an Invariant Mapping* by Hadsell, Chopr
  L = L_pos + L_neg = Y*D² + (1-Y)*(m-D) , replacing the values of Y for positive and negative pairs:
  
  L_pos = D² 
+ 
  L_neg = m-D
  
  <p align="center">
@@ -26,6 +27,7 @@ In *Dimensionality Reduction by Learning an Invariant Mapping* by Hadsell, Chopr
  L = L_pos + L_neg = Y*D³ + (1-Y)*Exp(-10*(1-Y)*D)/D, replacing the values of Y for positive and negative pairs:
  
  L_pos = D³ 
+ 
  L_neg = Exp(-10*D)/D
 
  <p align="center">
