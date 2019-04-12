@@ -70,11 +70,27 @@ Pre training:
   After training with the Yukawa (potential) loss:
  
   <p align="center">
- <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_20epcs_128_contrastive.png"  width="500">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_20epcs_128_potential.png"  width="500">
  </p>
 
+### 40 epochs - batch size = 128
+
+<p align="center">
+<img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_positive_pairs_40epcs_128.png"  width="350"> <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_negative_pairs_40epcs_128.png"  width="350">
+  </p>
 
 
+ Contrastive loss:
+ 
+ <p align="center">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_40epcs_128_contrastive.png"  width="500">
+ </p>
+ 
+ Yukawa loss:
+ 
+  <p align="center">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_40epcs_128_potential.png"  width="500">
+ </p>
  
  
  
