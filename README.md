@@ -24,7 +24,7 @@ Results:
 
 After 20 epochs of training with each loss with a 4 layered MLP (+Dropout), we see that the Potential loss has slightly better performance on the test set, scoring 98.10% accuracy against 97.37% with the Contrastive loss. We have used batch size=128. It is interesting to see the distances between the embedding vectors after training. Here we show the distributions for positive and negative pairs on the test set:
 <p align="center">
-<img src="https://github.com/mfmotta/siamese_keras/blob/master/images/dist_positve_pairs_100.png"  width="350"> <img src="https://github.com/mfmotta/siamese_keras/blob/master/images/dist_negative_pairs_100.png"  width="350">
+<img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_positive_pairs_20epcs_128.png"  width="350"> <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_negative_pairs_20epcs_128.png"  width="350">
   </p>
 We can see that the Contrastive loss does a better job at clustering the positive pairs together, with mean distance = 0.030 and standard deviation = 0.046, whereas the Potential loss has mean dist=0.052 and std=0,058. For negative pairs, the Potential loss is able to better cluster negative pairs together, with mean dist = 0.795, std=0.104, while these values for the Contrastive loss are mean dist= 1.171 and std=0.199.
 
@@ -33,7 +33,7 @@ We can also visualize the t-SNE projections of the test set
 Pre training:
 
 <p align="center">
- <img src="https://github.com/mfmotta/siamese_keras/blob/master/images/t_SNE_pre-training_1000.png"  width="500">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_pre-training.png"  width="500">
  </p>
  
  
