@@ -34,7 +34,7 @@ In *Dimensionality Reduction by Learning an Invariant Mapping* by Hadsell, Chopr
  <img src="https://github.com/mfmotta/siamese_keras/blob/master/images/yukawa_cubic.png"  width=300">
  </p>
 
-Notice that the proposed loss function is steeper for both positive and negative distances and has a lower minimum. Let us see what results from this changes.
+Notice that the proposed loss function is steeper for both positive and negative pairs distances and has a lower minimum. Let us see what results from these changes.
 
 
 ## Results:
