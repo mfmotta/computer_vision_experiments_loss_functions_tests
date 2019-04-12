@@ -83,13 +83,13 @@ Pre training:
  Contrastive loss:
  
  <p align="center">
- <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_40epcs_128_contrastive.png"  width="500">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/tSNE__40epcs_128contrastive.png"  width="500">
  </p>
  
  Yukawa loss:
  
   <p align="center">
- <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/t_SNE_40epcs_128_potential.png"  width="500">
+ <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/tSNE__40epcs_128potential.png"  width="500">
  </p>
  
  
