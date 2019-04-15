@@ -76,7 +76,7 @@ Pre training:
 ### 40 epochs - batch size = 128
 
 <p align="center">
-<img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_positive_pairs_40epcs_128.png"  width="350"> <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_negative_pairs_40epcs_128.png"  width="350">
+<img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_negative_40epcs_128.png"  width="350"> <img src="https://github.com/mfmotta/computer_vision_experiments_loss_functions/blob/master/contrastive_vs_yukawa/images/dist_positive_40epcs_128.png"  width="350">
   </p>
 
 
