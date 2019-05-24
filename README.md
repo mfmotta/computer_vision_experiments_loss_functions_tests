@@ -1,9 +1,13 @@
 Train with contrastive loss for n epochs with batch size m:
+
 python main.py --train=True --loss=contrastive --epcs=n --bs=m --opt=RMSprop --reset_weights=True
 
+
 Predict on test test: 
+
 python main.py --train=False --reset_weights=False
- 
+#
+
 
 # A new loss function: Yukawa Potential Loss
 
