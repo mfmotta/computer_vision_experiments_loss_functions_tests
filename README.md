@@ -1,3 +1,4 @@
+In tests folder:
 Train with contrastive loss for n epochs with batch size m:
 
 python main.py --train=True --loss=contrastive --epcs=n --bs=m --opt=RMSprop --reset_weights=True
