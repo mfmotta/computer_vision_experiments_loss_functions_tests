@@ -11,6 +11,9 @@ python main.py --train=False --reset_weights=False
 
 
 # A new loss function: Yukawa Potential Loss
+#
+We propose a new loss function for Image Embeddings of a Siamese network, which we call Yukawa Loss function. This new loss function leads to a slightly better performance on the test set, with ~ 1% improvement in accuracy, with respect to the Constrastive Loss for the MNIST data set. We quantify and qualify how the two loss functions separate positive and negative pairs of embeddings through distance measures and the t-SNE projection.
+#
 
 In *Dimensionality Reduction by Learning an Invariant Mapping* by Hadsell, Chopra, and LeCun, the authors
  propose a novel method for learning a "globally coherent non-linear function that maps the data evenly to the output manifold" (sic).  
